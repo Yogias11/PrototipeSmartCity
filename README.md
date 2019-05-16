@@ -13,7 +13,7 @@ Dimana Prototipe ini konsepnya hampir sama seperti instagram namun disini User a
 Untuk beberapa User Interface dari aplikasi ini ada dibawah ini :
 
 
-Contact Person 
-Phone : 085731182017 ( Yogi Aditya S )
-Email : adityayogi711@gmail.com
-LinkedIn : https://www.linkedin.com/in/yogi-aditya-70523a136/
+Contact Person.
+Phone : 085731182017 ( Yogi Aditya S ).
+Email : adityayogi711@gmail.com.
+LinkedIn : https://www.linkedin.com/in/yogi-aditya-70523a136/.
