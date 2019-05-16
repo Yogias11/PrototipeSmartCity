@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Siluman</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="s_title_1">Home</string>
+    <string name="s_desk_t1">Untuk melihat berbagai keluhan dari berbagai masyarakat</string>
+    <string name="s_title_11">Camera</string>
+    <string name="s_desk_t11">Untuk posting apa yang akan anda keluhkan</string>
+    <string name="s_title_2">Notifikasi</string>
+    <string name="s_desk_t2">Untuk melihat keluhan anda sudah ditindaklnjuti oleh pihak yang berwenang</string>
+    <string name="s_title_3">Profile</string>
+    <string name="s_desk_t3">Untuk melihat profile anda, update profile anda dan logout pada sistem tersebut</string>
+</resources>

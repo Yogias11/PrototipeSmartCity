@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative_layout"
+    android:padding="16dp"
+    android:background="#FF8C00"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_person_pin"
+        android:scaleType="fitXY"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:layout_below="@id/gambar"
+        android:layout_marginTop="15dp"
+        android:textSize="35dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="monospace"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/gambar"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_username">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="Username"
+            android:drawablePadding="15dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/txt_password"
+        android:layout_below="@id/txt_username"
+        app:passwordToggleDrawable="@drawable/toggle_eye"
+        app:passwordToggleEnabled="true"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:drawable="@drawable/ic_lock"
+            android:drawablePadding="15dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp" />
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password ?"
+        android:id="@+id/txt_forgot_pass"
+        android:layout_below="@id/txt_password"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:clickable="true"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/oval_button"
+        android:fontFamily="monospace"
+        android:layout_below="@id/txt_password"
+        android:text="Login"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/txt_other"
+        android:layout_below="@id/btnLogin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belum Terdaftar? Daftar disini!"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:textColorLink="#FFFFFF"
+            android:id="@+id/txt_links"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+</RelativeLayout>
